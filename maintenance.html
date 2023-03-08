@@ -36,17 +36,51 @@
       margin: 0;
       position: relative;
     }
-    .body {
+    .floor {
       background-color: #171843;
-    }
-    .image {
       margin-left: auto;
       margin-right: auto;
       margin-top: 10px;
       padding-top: 30px;
       text-align: center;
     }
-    
+    .text {
+      color: #FF0000;
+      font-size: 50px;
+      text-align: center;
+      text-shadow: 1px 1px 2px black;
+      padding: 8px 12px;
+      position: absolute;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    .cardText {
+      color: #000000;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      width: 100%;
+      text-align: center;
+    }
+    .image {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      padding-top: 30px;
+    }
+    .imgs {   
+      transition: transform 0.3s ease-out;   
+      border:0px!important; 
+    }  
+    .imgs:hover {   
+      transform: scale(1.1); 
+    }  
+    .card__body {   
+      padding:5px!important; 
+    }
   </style>
 </css>
 
@@ -57,17 +91,23 @@
          width="100" 
          height="auto"></a>
     </a>
-    <a href="https://richlist.app/nft/JNKZ/"><img class="pfp"
+    <a href="maintenance.html"><img class="pfp"
          src="https://live.staticflickr.com/65535/52344801025_b46ca5dbf7_o.png" 
          width="40" 
          height="auto">
     </a>
   </header>
   
-  <body class="body">
-    <div class="image">
-    <img src="https://assets.codepen.io/8656486/maintenance.png" 
-         width="75%" />
+  <body class="floor">
+    <h1 class="text">FLOOR</h>
+    <script src="https://nftoken.id/plugins/floor.js?v0.25"></script>
+    <div id ="nftPlugin" class="cardText"
+         issuer="rJAGUDtZjGu5xraC5SGXDvx2yodzqGYuB7" 
+         taxon="219" 
+         display="30" 
+         cardWidth="200" 
+         more="no" 
+         theme="light">
     </div>
   </body>
 
