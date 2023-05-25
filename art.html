@@ -1,0 +1,169 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .body {
+      background-image: url("https://live.staticflickr.com/65535/52921240996_f7b28887d1_o.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+/* Style the header */
+    .header {
+      background-color: transparent;
+      padding: 45px;
+      margin-bottom: 10px;
+    }
+
+    .jnkzHead {
+      top: 3%;
+      left: 2%;
+      position: fixed;
+    }
+
+    .jnkzHead:hover {
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    .pfp {
+      top: 4%;
+      right: 5%;
+      position: fixed;
+      border-radius: 180px;
+      box-shadow: 0px 1px 3px black;
+    }
+
+    .pfp:hover {
+      background-color: transparent;
+      box-shadow: 0px 1px 1px black;
+      cursor: pointer;
+    }
+
+    .cardText {
+      color: #000000;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .image {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      padding-top: 30px;
+    }
+
+    .imgs {
+      transition: transform 0.3s ease-out;   
+      border:0px!important; 
+    }
+
+    .imgs:hover {
+      transform: scale(1.1); 
+    }
+
+    .card__body {
+      padding:5px!important; 
+    }
+
+/* Style the footer */
+    .footer {
+      background-color: transparent;
+      padding: 10px;
+    }
+
+    .row {
+      border: none;
+      width: 100%;
+      margin-top: 5%;
+    }
+
+    .column {
+      text-align: center;
+      margin: auto;
+      width: 50%;
+      padding: 15px;
+    }
+
+    .column:hover {
+      cursor: pointer;
+      opacity: 0.9;
+    }
+
+   /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 600px) {
+      .text {font-size: 11px}
+    }
+
+</style>
+
+<head>
+  <div class="header">
+    <a href="home.html"><img class="jnkzHead"
+             src="https://live.staticflickr.com/65535/52900911090_165e0c3e3b_o.png"
+             width="100" 
+             height="auto"></a>
+    </a>
+    <a href="mint.html"><img class="pfp"
+             src="https://live.staticflickr.com/65535/52344801025_b46ca5dbf7_o.png" 
+             width="40" 
+             height="auto">
+    </a>
+  </div>
+</head>
+
+  <body class="body">
+      <script src="https://nftoken.id/plugins/floor.js?v0.27">
+      </script>
+        <div id ="nftPlugin" class="cardText"
+             issuer="rJAGUDtZjGu5xraC5SGXDvx2yodzqGYuB7" 
+             taxon="219" 
+             display="30" 
+             cardWidth="200" 
+             more="no" 
+             theme="light">
+        </div>
+    </div>
+  </body>
+
+    <footer class="footer">
+        <div class="row">
+            <ig class="column">
+              <a href="https://www.instagram.com/jnkz.xyz/"><img src="https://live.staticflickr.com/65535/52288954479_993a582d10_o.png" 
+                    width="25"
+                    height="25"
+                    alt="IG Logo White"></a>
+            </ig>
+
+            <twit class="column">
+              <a href="https://twitter.com/jnkzxyz"><img src="https://live.staticflickr.com/65535/52289171475_e7e5378862_o.png" 
+                    width="25"
+                    height="25"
+                    alt="Twitter Logo White"></a>
+            </twit>
+
+            <disc class="column">
+              <a href="http://discord.gg/ZYYMbEkKPs"><img src="https://live.staticflickr.com/65535/52918654911_723d38d52f_o.png" 
+                    width="25" 
+                    height="25" 
+                    alt="Discord Logo White"/></a>
+            </disc>
+        </div>
+    </footer>
+</html>
