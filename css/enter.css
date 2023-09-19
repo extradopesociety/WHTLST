@@ -50,23 +50,6 @@
     border-radius: 10px;
 }
 
-.box {
-    background: #1DAFEC;
-    border: 3px solid white;
-    border-radius: 10px;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: 2px;
-    margin-right: 2px;
-    margin-top: 2px;
-    text-align: center;
-    font-size: 20px;
-    word-spacing: -4px;
-}
-
 .box1 {
     flex-grow: 1;
 }
@@ -112,13 +95,13 @@ a:visited {
     align-items: right;
 }
 
-.row {
+.row2 {
     border: none;
     width: 100%;
     margin-top: 25px;
 }
 
-.column {
+.column2 {
     text-align: center;
     width: 25%;
     padding: 5px;
@@ -130,3 +113,34 @@ a:visited {
     background-attachment: fixed;
     background-size: cover;
 }
+
+
+
+/* Container for flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+/* Create three equal columns that sits next to each other */
+  .column {
+    background: #1DAFEC;
+    border: 3px solid white;
+    border-radius: 10px;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 20px 40px 20px 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: -4px;
+    justify-content: space-between;
+}
+  
+  .column:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
