@@ -14,7 +14,7 @@
 .container {
     margin: 0 auto;
     width: 90%;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -113,4 +113,44 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+/* navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #1DAFEC;
+    border-radius: 10px;
+    opacity: 95%;
+  }
+
+li {
+    float: left;
+    border-right: 1px solid white;
+}
+  
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: #1DAFEC;
+    opacity: 75%;
+}
+
+.active {
+    background-color: #1DAFEC;
 }
