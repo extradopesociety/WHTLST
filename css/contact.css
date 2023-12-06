@@ -111,44 +111,55 @@
     background-size: cover;
 }
 
-/* navbar */
-ul {
-    list-style-type: none;
-    margin: 0;
-    margin-left: 25px;
-    margin-right: 25px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: #1DAFEC;
+/* nav bar */
+.navbar * {
+    box-sizing: border-box;
     border-radius: 10px;
-    opacity: 95%;
-  }
-
-li {
-    float: left;
-    border-right: 1px solid white;
-}
-  
-li:last-child {
-    border-right: none;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.navbar {
+  overflow: hidden;
+  background-color: #1DAFEC;
+  padding: 5px 5px;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
-li a:hover:not(.active) {
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.navbar a:hover {
     background-color: white;
     color: #1DAFEC;
     opacity: 75%;
 }
 
-.active {
-    background-color: #1DAFEC;
+.navbar a.active {
+  color: white;
+}
+
+.navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .navbar-right {
+    float: none;
+  }
 }
 
 /* Style inputs with type="text", select elements and textareas */
