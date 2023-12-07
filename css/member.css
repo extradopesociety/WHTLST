@@ -161,3 +161,21 @@
     float: none;
   }
 }
+
+/* button */
+.a2:link, .a2:visited {
+    background-color: #1DAFEC;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .a2:hover, .a2:active {
+    background-color: white;
+    color: #1DAFEC;
+    opacity: 75%;
+  }
