@@ -79,12 +79,10 @@
 
 /*images*/
 .jnkz {
-    width: auto;
-    height: 80px;
-    position: fixed;
-    top: 3%;
-    left: 2%;
-    }
+    width: 100px;
+    height: auto;
+    float: left;
+}
 
 .logo {
     width: auto;
