@@ -21,7 +21,7 @@ body {
   background-color: #141414;
   margin: 0;
   width: 100%;
-  height: calc(95vh);
+  height: 550px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -204,7 +204,6 @@ div.desc {
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 100%;
-    margin: 6px 0;
   }
 }
 
