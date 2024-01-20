@@ -21,7 +21,7 @@ body {
   background-color: #141414;
   margin: 0;
   width: 100%;
-  height: 555px;
+  height: calc(95vh);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -30,7 +30,6 @@ body {
 
 .bottom {
   background-color: #141414;
-  color: #141414;
   margin: 0;
   padding: 3px;
   text-align: center;
@@ -79,7 +78,7 @@ body {
 
 .box5 {
   flex-grow: 1;
-  height: 20px; /* Adjust this height as needed */
+  height: 40px; /* Adjust this height as needed */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +117,7 @@ body {
 /* Dropup Button */
 .dropbtn {
   background-color: transparent;
-  padding: 16px;
+  padding: 5px;
   border: none;
   cursor: pointer;
 }
@@ -139,7 +138,7 @@ body {
 .dropup-content {
   display: none;
   position: absolute;
-  bottom: 65px;
+  bottom: 55px;
   background-color: #ed217c;
   border-radius: 10px;
   opacity: 95%;
